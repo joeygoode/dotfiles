@@ -3,3 +3,5 @@
 	email = joey@clypd.com
 [push]
 	default = simple
+[rebase]
+	autosquash = true

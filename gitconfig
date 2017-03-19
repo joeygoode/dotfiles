@@ -1,3 +1,5 @@
+[alias]
+  s = status
 [user]
 	name = Joey Goode
 	email = joey@clypd.com

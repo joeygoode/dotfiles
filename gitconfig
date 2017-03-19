@@ -1,5 +1,11 @@
 [alias]
   s = status
+  sl = log --oneline origin/master..HEAD
+  new-branch = !git fetch && git checkout -b $1 origin/master
+  ff = merge --ff-only
+  fp = fetch --prune
+  push-replace = !git push origin ":$1" && git push -u origin "$1:$1"
+  fff = !git fetch && git ff
 [user]
 	name = Joey Goode
 	email = joey@clypd.com
